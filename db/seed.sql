@@ -3,25 +3,26 @@ USE employee_DB;
 INSERT INTO department
     (name)
 VALUES
-    ("Human Resources"),
-    ("R&D"),
-    ("Engineering"),
-    ("Accounting"),
-    ("Sales");
+    ("Director"),
+    ("Counselor"),
+    ("Scheduler"),
+    ("Manager"),
+    ("Tutor");
 
 INSERT INTO role
     (title, salary, department_id)
 VALUES
-("manager", 85000.00, 2),
-("engineer", 52000, 3),
-("accountant", 62500, 4),
-("recruiter", 57500, 1),
-("sales person", 85650, 5);
+("director", 65000.00, 1),
+("manager", 60000, 2),
+("scheduler", 52500, 3),
+("counselor", 57000, 4),
+("tutor", 52500, 5);
 
 INSERT INTO employee
     (first_name, last_name, role_id, manager_id)
 VALUES
-("John", "Smith", 1, NULL),
-("Jill", "Green", 1, 1),
-("Jack", "Brown", 3, 2),
-("Steve", "Quinn", 5, 2);
+("Howard", "Smith", 1, NULL),
+("Michelle", "Gilson", 1, 4),
+("Wanda", "Taylor", 3, 2),
+("Caitlyn", "Raymond", 2, 5),
+("Jeremy", "Collin", 5, 3);
