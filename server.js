@@ -25,7 +25,7 @@ function startPrompt() {
             choices: [
                 "View All Employees?",
                 "View All Employee's By Roles?",
-                "View all Emplyees By Deparments",
+                "View all Emplyees By Deparments?",
                 "Update Employee",
                 "Add Employee?",
                 "Add Role?",
