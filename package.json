@@ -4,7 +4,8 @@
   "description": "* User Story\r * Languages & Technologies\r * Walkthrough Demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ChengyuD/Employee-Tracker/issues"
   },
-  "homepage": "https://github.com/ChengyuD/Employee-Tracker#readme"
+  "homepage": "https://github.com/ChengyuD/Employee-Tracker#readme",
+  "dependencies": {
+    "inquirer": "^8.1.0"
+  }
 }
